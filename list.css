@@ -43,6 +43,10 @@
     font-size: 25px;
     padding-top: 0;
 }
+.columna-precio p span{
+    font-size: 15px;
+    color: #fc0000;
+}
 .columna-precio h3{
     font-size: 40px;
     margin: 20px 0 40px;
@@ -80,4 +84,23 @@
 }
 .columna-precio button:hover{
     background: #030116;
+}
+#boton-recomendado{
+    color: #f1eaea;
+    background-color: transparent;
+}
+#boton-recomendado:hover{
+    background: #f12c2c;
+}
+.recomendado {
+    background: #fc0000; 
+    border: 1px solid #fc0000; 
+    box-shadow: 0px 0px 0px #fc0000; 
+    z-index: 1;
+    padding: 0.5% 0.5%;
+    transition: transform 0.3s ease;
+}
+.recomendado:hover {
+    transform: scale(1);
+    
 }
